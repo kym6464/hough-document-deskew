@@ -34,5 +34,5 @@ Results for the images in `./test_images`, generated using the driver script `te
 
 ## Source
 
-Inspired by [subrunner/deskew](git@github.com:sbrunner/deskew.git).
+Inspired by [subrunner/deskew](https://github.com/sbrunner/deskew).
 
