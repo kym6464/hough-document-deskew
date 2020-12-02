@@ -1,5 +1,10 @@
 # hough-document-deskew
-Find and correct skew in images of scanned documents using hough transform in Matlab. This removes the skew in a document image so that the image is aligned with some main axis. Note that this does not guarantee that the image will be rotated so that the text will be straight up and down. It only aligns the image which means the final skew of the image may be off by one of [0, 90, 180, 270] degrees off of the ideal rotation angle.\
+
+Find and correct skew in images of scanned documents using hough transform in Matlab. This removes the skew in a document image so that the image is aligned with some main axis. Note that this does not guarantee that the image will be rotated so that the text will be straight up and down. It only aligns the image which means the final skew of the image may be off by one of [0, 90, 180, 270] degrees off of the ideal rotation angle.
+
+## Usage
+
+The main function is `./src/deskew.m`. Example usage can be found in `./test_deskew.m`.
 
 ## Concept
 
